@@ -1,4 +1,4 @@
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (
@@ -12,7 +12,7 @@ export default function Navbar() {
       <label htmlFor="menu-toggle" className="menu-icon">&#9776;</label>
 
       <ul className="menu">
-        <li><a href="/about">Sobre</a></li>
+        <a href="/about">Sobre</a>
       </ul>
     </nav>
   )

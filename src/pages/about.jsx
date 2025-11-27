@@ -3,19 +3,19 @@ import "../pages/home";
 import projetoIcon from "../assets/projetoIcon.png";
 
 import seta from "../assets/seta.png";
-import ester from "../assets/ester-perfil.jfif";
-import gabi from "../assets/gabi-perfil.jfif";
 import Navbar from "../components/Navbar";
-//import gusta from "../assets/gusta-perfil.jfif";
-import jhow from "../assets/jhow-perfil.jfif";
+import integrantes from "../assets/integrantes.jpg";
 
 export default function About() {
   return (
     <>
       <header className="header-about">
-        <a href="/" className="seta-voltar">
-          <img src={seta} alt="voltar" />
-        </a>
+         <div className="seta">
+          <a href="/" className="seta-voltar">
+            <img src={seta} alt="Voltar" />
+          </a>
+        </div>
+
 
         <h1>Sobre Nós</h1>
         <p>Conheça a equipe e a história por trás do SafeView</p>
@@ -30,35 +30,20 @@ export default function About() {
           </p>
         </div>
 
-        <span className="titulo">Integrantes</span>
-
-        <div className="card-container">
+        <span className="titulo">Time SafeView</span>
           <div className="card">
-            <img src={ester} alt="integrante" className="card-image" />
-            <h2 className="card-title">ESTER RODRIGUES SOARES</h2>
+            <img src={integrantes} alt="integrantes" className="card-image" />
+              <p>
+               Foram meses de estudo, planejamento e desenvolvimento, um ano inteiro dedicado a transformar uma ideia em algo palpável. Escolhemos este tema porque entendemos sua relevância e o impacto real que pode gerar, especialmente quando pensamos em segurança e cuidado no trânsito.
+              
+               Sabemos que ainda há pontos a aprimorar e pretendemos continuar aprimorando e expandindo este trabalho no futuro, transformando cada melhoria em mais um passo rumo a uma solução ainda mais completa e eficaz.
+              </p>
           </div>
-
-          <div className="card">
-            <img src={gabi} alt="integrante" className="card-image" />
-            <h2 className="card-title">GABRIELLY NASCIMENTO BENTO</h2>
-          </div>
-<br />
-          <div className="card">
-           
-            <h2 className="card-title">GUSTAVO HENRIQUE</h2>
-          </div>
-
-          <div className="card">
-            <img src={jhow} alt="integrante" className="card-image" />
-            <h2 className="card-title">JHONATA ALVES DO NASCIMENTO</h2>
-          </div>
-        </div>
-<br />
-        <section>
+      <br />
+          <section>
           <h2>Por que esse Projeto?</h2>
            <div className="conteudo-projeto">
           <img src={projetoIcon} alt="projeto" className="imagem-projeto" />
-
           <p>
             Uma grande porcentagem dos acidentes envolvendo veículos de grande porte ocorre pela
             falta de visibilidade dos motoristas em relação aos elementos ao seu redor. Isso destaca
@@ -70,6 +55,15 @@ export default function About() {
             ou motoristas autônomos.
           </p>
         </div>
+        </section>
+        
+      <section>
+          <h2>Quer entender mais sobre como isso é importante?</h2>
+           <div className="conteudo-projeto">
+            <div className="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/kr5nzyVM-0U?si=B9SWX7gLf8tFX8Ye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          </div>
         </section>
 
       </div>

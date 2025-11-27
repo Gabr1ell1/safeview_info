@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 25px;
-    background: #003f6b;
+    background: linear-gradient(135deg, #005b96, #00a6d6);
     color: white;
     position: sticky;
     top: 0;

@@ -1,5 +1,7 @@
 import cores from "../assets/cores.png";
 import caseSensor from "../assets/caseSensor.png";
+import caseCamSensor from "../assets/caseCamSensor.png";
+import circuitoSensor from "../assets/circuitoSensor.png";
 
 import Navbar from "../components/Navbar";
 
@@ -14,7 +16,6 @@ export default function Home() {
       </header>
 
       <div className="container">
-
         <section>
           <h2>O que é o SafeView?</h2>
           <p>
@@ -61,10 +62,11 @@ export default function Home() {
           </p>
         </section>
 
-        <div className="images">
-          <img src={caseSensor} alt="sensor" />
-          <img src={caseSensor} alt="sensor" />
-        </div>
+          <div className="titulo">Da Concepção ao Resultado</div>
+          <div className="images">
+            <img src={caseSensor} alt="Case do Sensor" />
+            <img src={caseCamSensor} alt="Case das Câmeras com Sensor" />
+          </div>
 
       </div>
 
