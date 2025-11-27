@@ -1,3 +1,15 @@
+/* Import da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --primario: #D2CFCA;
+  --secundario: #BDC4D4;
+  --fundo: #52677D;
+  --amarelo: #FFA25B;
+  --azul: #1D2E4A;
+  --azul-escuro: #0F1A2C;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -61,10 +73,10 @@ body {
 }
 
 .card-container {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-  padding: 10px;
+  gap: 45px;
+  padding: 15px;
 }
 
 .card {
@@ -129,6 +141,10 @@ body {
   .imagem-projeto {
     width: 80%;              /* opcional: imagem menor */
     max-width: 300px;
+  }
+  .card-container{
+     width: 90%;              /* opcional: imagem menor */
+     flex-direction: column;  
   }
 
   .conteudo-projeto p {

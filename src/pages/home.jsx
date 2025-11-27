@@ -61,11 +61,10 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="images">
+        <div className="images">
           <img src={caseSensor} alt="sensor" />
           <img src={caseSensor} alt="sensor" />
-
-        </section>
+        </div>
 
       </div>
 

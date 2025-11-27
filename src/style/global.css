@@ -31,9 +31,9 @@
 }
 
 .sv-navbar .logo img {
-    width: 45px;          /* Ajuste o tamanho da sua logo */
+    width: 45px;          
     height: 45px;
-    object-fit: contain;  /* Evita distorção */
+    object-fit: contain;  
 }
 .navbar .menu {
     display: flex;
@@ -164,6 +164,35 @@ color: #666;
   gap: 25px;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/*IMAGENS*/
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 40px 0;
+  flex-wrap: wrap; 
+}
+
+/* --- MOBILE --- */
+@media (max-width: 768px) {
+  .images img {
+    max-width: 90%;
+    width: 100%;
+  }
+  .images {
+    gap: 15px;
+  }
+}
+
+.images img {
+  width: 320px;
+  max-width: 45%;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .imagem-projeto {

@@ -42,7 +42,7 @@ export default function About() {
             <img src={gabi} alt="integrante" className="card-image" />
             <h2 className="card-title">GABRIELLY NASCIMENTO BENTO</h2>
           </div>
-
+<br />
           <div className="card">
            
             <h2 className="card-title">GUSTAVO HENRIQUE</h2>
