@@ -112,3 +112,26 @@ body {
   margin-top: 40px;
   color: #666;
 }
+
+.conteudo-projeto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* --- MOBILE / TELAS PEQUENAS --- */
+@media (max-width: 768px) {
+  .conteudo-projeto {
+    flex-direction: column;  /* imagem em cima, texto embaixo */
+    text-align: justify;      /* opcional */
+  }
+
+  .imagem-projeto {
+    width: 80%;              /* opcional: imagem menor */
+    max-width: 300px;
+  }
+
+  .conteudo-projeto p {
+    width: 90%;
+  }
+}

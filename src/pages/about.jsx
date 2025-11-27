@@ -7,7 +7,7 @@ import ester from "../assets/ester-perfil.jfif";
 import gabi from "../assets/gabi-perfil.jfif";
 import Navbar from "../components/Navbar";
 //import gusta from "../assets/gusta-perfil.jfif";
-//import jhow from "../assets/jhow-perfil.jfif";
+import jhow from "../assets/jhow-perfil.jfif";
 
 export default function About() {
   return (
@@ -49,7 +49,7 @@ export default function About() {
           </div>
 
           <div className="card">
-           
+            <img src={jhow} alt="integrante" className="card-image" />
             <h2 className="card-title">JHONATA ALVES DO NASCIMENTO</h2>
           </div>
         </div>
