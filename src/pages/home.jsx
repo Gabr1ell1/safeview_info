@@ -20,14 +20,13 @@ export default function Home() {
           <h2>O que é o SafeView?</h2>
           <p>
             O SafeView é um sistema inteligente de assistência ao motorista desenvolvido para aumentar
-            a segurança veicular por meio do monitoramento dos pontos cegos. Ele integra sensores,
-            câmeras e um aplicativo móvel para fornecer alertas em tempo real sobre possíveis riscos ao redor do veículo.
+            a segurança veicular por meio do monitoramento dos pontos cegos. 
           </p>
 
           <div className="highlight">
             <p>
               O sistema utiliza sensores ultrassônicos e câmeras ESP32-CAM para capturar informações
-              e gerar alertas automaticamente de acordo com a proximidade de obstáculos detectados.
+              e gerar alertas automaticamente em um aplicativo de acordo com a proximidade de obstáculos detectados.
             </p>
           </div>
         </section>
@@ -49,19 +48,22 @@ export default function Home() {
           <p>Os principais pontos cegos identificados em caminhões de baú:</p>
 
           <ul>
-            <li>Ponto cego frontal — causado pela altura elevada da cabine;</li>
-            <li>Ponto cego lateral direito — esse lado é mais difícil de enxergar pelos espelhos;</li>
-            <li>Ponto cego traseiro — pois não aparece nos espelhos.</li>
+            <li><span className="destaque">Na frontal</span> — causado pela altura elevada da cabine;</li>
+            <li><span className="destaque">Lateral direito</span> — esse lado é mais difícil de enxergar pelos espelhos;</li>
+            <li><span className="destaque">Traseiro</span> — por conta do tamanho do baú.</li>
           </ul>
+        </section>
 
+        <section>
           <p>
-            Como será coberto: A instalação dos equipamentos foi planejada de modo que as
+            <h2>Como serão coberto?</h2>
+
+            A instalação dos equipamentos foi planejada de modo que as
             <span className="til"> câmeras e sensores sejam posicionadas na parte traseira e no lado direito </span>
             do veículo, enquanto o
             <span> ponto cego frontal utiliza apenas sensores</span>.
           </p>
         </section>
-
           <div className="titulo">Da Concepção ao Resultado</div>
           <div className="images">
             <img src={caseSensor} alt="Case do Sensor" />

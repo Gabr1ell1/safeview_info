@@ -224,12 +224,11 @@ p span{
 {
     header h1 { font-size: 2.2rem; }
     header p { font-size: 1rem; }
-    .container { padding: 10px; }
+    .container { padding: 20px; }
     section { padding: 20px; }
     h2 { font-size: 1.5rem; }
     p, li { font-size: 0.95rem; }
 }
-
 
 @media (max-width: 480px) 
 {
