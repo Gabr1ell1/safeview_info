@@ -68,7 +68,7 @@ export default function About() {
           <div className="card">
             <img src={integrantes} alt="integrantes" className="card-image" />
               <p>
-               Foram meses de estudo, planejamento e desenvolvimento, um ano inteiro dedicado a transformar uma ideia em algo palpável. Escolhemos este tema porque entendemos sua relevância e o impacto real que pode gerar, especialmente quando pensamos em segurança e cuidado no trânsito.
+               Escolhemos este tema porque entendemos sua relevância e o impacto real que pode gerar, especialmente quando pensamos em segurança e cuidado no trânsito.
 <br /><br />           
                Sabemos que ainda há pontos a aprimorar e pretendemos continuar aprimorando e expandindo este trabalho no futuro, transformando cada melhoria em mais um passo rumo a uma solução ainda mais completa e eficaz.
               </p>
