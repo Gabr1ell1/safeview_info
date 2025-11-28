@@ -30,6 +30,23 @@ export default function About() {
           </p>
         </div>
 
+        <section>
+            <h2>Por que esse Projeto?</h2>
+            <div className="conteudo-projeto">
+            <img src={projetoIcon} alt="projeto" className="imagem-projeto" />
+            <p>
+              Uma grande porcentagem dos acidentes envolvendo veículos de grande porte ocorre pela
+              falta de visibilidade dos motoristas em relação aos elementos ao seu redor. Isso destaca
+              a urgência de uma solução eficiente para esse problema.  
+              Ciclistas, pedestres e veículos menores representam riscos devido às limitações visuais
+              causadas pela posição elevada e lateralizada da cabine.  
+              Hoje, existem sistemas que podem ser instalados em caminhões ou já vêm embutidos,
+              porém o custo aumenta conforme a precisão — tornando-os inviáveis para empresas menores
+              ou motoristas autônomos.
+            </p>
+          </div>
+        </section>
+
         <span className="titulo">Time SafeView</span>
           <div className="card">
             <img src={integrantes} alt="integrantes" className="card-image" />
@@ -40,33 +57,7 @@ export default function About() {
               </p>
           </div>
       <br />
-          <section>
-          <h2>Por que esse Projeto?</h2>
-           <div className="conteudo-projeto">
-          <img src={projetoIcon} alt="projeto" className="imagem-projeto" />
-          <p>
-            Uma grande porcentagem dos acidentes envolvendo veículos de grande porte ocorre pela
-            falta de visibilidade dos motoristas em relação aos elementos ao seu redor. Isso destaca
-            a urgência de uma solução eficiente para esse problema.  
-            Ciclistas, pedestres e veículos menores representam riscos devido às limitações visuais
-            causadas pela posição elevada e lateralizada da cabine.  
-            Hoje, existem sistemas que podem ser instalados em caminhões ou já vêm embutidos,
-            porém o custo aumenta conforme a precisão — tornando-os inviáveis para empresas menores
-            ou motoristas autônomos.
-          </p>
-        </div>
-        </section>
-        
-      <section>
-          <h2>Quer entender mais sobre como isso é importante?</h2>
-           <div className="conteudo-projeto">
-            <div className="video-container">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/kr5nzyVM-0U?si=B9SWX7gLf8tFX8Ye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-          </div>
-        </section>
-
-      </div>
+    </div>
 
       <footer className="footer-about">
         <span className="obs">São Paulo • 2025</span><br />

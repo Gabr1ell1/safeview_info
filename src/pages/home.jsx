@@ -68,6 +68,16 @@ export default function Home() {
             <img src={caseCamSensor} alt="Case das Câmeras com Sensor" />
           </div>
 
+
+           <section>
+            <h2>Quer entender mais sobre como isso é importante?</h2>
+            <div className="conteudo-projeto">
+              <div className="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kr5nzyVM-0U?si=B9SWX7gLf8tFX8Ye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+          </section>
+
       </div>
 
       <footer>
